@@ -1,0 +1,124 @@
+﻿@{
+    ViewData["Title"] = "Edit Application";
+}
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Edit Application</h4>
+                    <form class="cmxform" id="commentForm" method="get" action="#">
+                        <fieldset>
+                            <div class="form-group">
+                                <label for="cname">Program Name</label>
+                                <input id="cname" class="form-control" name="name" minlength="2" type="text" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cemail">Default User Levels</label>
+                                <input id="cemail" class="form-control" type="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="curl">Database Expire Date</label>
+                                <input id="curl" class="form-control" type="url" name="url">
+                            </div>
+                            <div class="form-group">
+                                <label for="ccomment">Version Major</label>
+                                <select class="form-control">
+                                    <option value="">--Select Role--</option>
+                                    <option value="SA">Super Admin</option>
+                                    <option value="A">Admin</option>
+                                    <option value="U">User</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="ccomment">Version Build</label>
+                                <select class="form-control">
+                                    <option value="">--Select Status--</option>
+                                    <option value="A">Active</option>
+                                    <option value="I">In-Active</option>
+
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="curl">Install Location</label>
+                                <input id="curl" class="form-control" type="url" name="url">
+                            </div>
+                            <div class="form-group">
+                                <label for="curl">Is Required Update</label>
+                                <input id="curl" class="form-control" type="checkbox" name="url">
+                            </div>
+                            <div class="form-group">
+                                <label for="curl">Status</label>
+                                <input id="curl" class="form-control" type="url" name="url">
+                            </div>
+                            <div class="form-group">
+                                <label for="curl">Email Recipients</label>
+                                <input id="curl" class="form-control" type="url" name="url">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">&nbsp;</h4>
+                    <form class="cmxform" id="commentForm" method="get" action="#">
+                        <fieldset>
+                            <div class="form-group">
+                                <label for="cname">App Switches</label>
+                                <input id="cname" class="form-control" name="name" minlength="2" type="text" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cemail">Default Lifetime (days)</label>
+                                <input id="cemail" class="form-control" type="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="curl">Database Version</label>
+                                <input id="curl" class="form-control" type="url" name="url">
+                            </div>
+                            <div class="form-group">
+                                <label for="ccomment">Version Minor</label>
+                                <input id="curl" class="form-control" type="url" name="url">
+                            </div>
+                            <div class="form-group">
+                                <label for="ccomment">Version Revision</label>
+                                <input id="curl" class="form-control" type="url" name="url">
+                            </div>
+                            <div class="form-group">
+                                <label for="ccomment">Update Description Path</label>
+                                <input id="curl" class="form-control" type="url" name="url">
+                            </div>
+                            <div class="form-group">
+                                <label for="ccomment">Required Minimum Version</label>
+                                <input id="curl" class="form-control" type="url" name="url">
+                            </div>
+                            <div class="form-group">
+                                <label for="ccomment">Email Notification</label>
+                                <select class="form-control">
+                                    <option value="">--Select Status--</option>
+                                    <option value="Y">Yes</option>
+                                    <option value="N">No</option>
+
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="ccomment">&nbsp;</label>
+                                <input class="btn btn-primary form-control" type="submit" value="Add External Email">
+                            </div>
+
+                        </fieldset>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6" style="margin-left: 230px;margin-top: 15px;">
+            <input class="btn btn-primary form-control" type="submit" value="Update">
+
+        </div>
+    </div>
+</div>
+

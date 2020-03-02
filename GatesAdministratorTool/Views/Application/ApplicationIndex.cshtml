@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewData["Title"] = "Application Details";
+}
+
+<div class="content-wrapper">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-10">
+                    <h4 class="card-title">Application Details</h4>
+                </div>
+                <div class="col-2">
+                    <a asp-action="CreateNewApplication" asp-controller="Application" class="btn btn-success">Add Application</a>
+                </div>
+                <div>&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="table-responsive">
+                        <table id="order-listing" class="table">
+                            <thead>
+                                <tr>
+                                    <th>S.No #</th>
+                                    <th>Application Switches</th>
+                                    <th>Default User Level</th>
+                                    <th>Default Life Tile (Days)</th>
+                                    <th>Database Expire Date</th>
+                                    <th>Version Major</th>
+                                    <th>Version Minor</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @for (var i = 1; i <= 20; i++)
+                                {
+                                    <tr>
+                                        <td>@i</td>
+                                        <td>2012/08/03</td>
+                                        <td>Edinburgh</td>
+                                        <td>New York</td>
+                                        <td>$1500</td>
+                                        <td>$3200</td>
+                                        <td>
+                                            <label class="badge badge-info">On hold</label>
+                                        </td>
+                                        <td>
+                                            <a asp-action="EditApplication" asp-controller="Application" class="btn btn-outline-primary">Edit</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script>
+        $(function () {
+            $('#order-listing').DataTable({
+                "aLengthMenu": [
+                    [5, 10, 15, -1],
+                    [5, 10, 15, "All"]
+                ],
+                "iDisplayLength": 10,
+                "language": {
+                    search: ""
+                }
+            });
+        });
+    </script>
+}
