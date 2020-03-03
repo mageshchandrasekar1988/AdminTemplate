@@ -37,6 +37,7 @@ namespace GatesAdministratorTool
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             services.AddSession();
+            services.AddDistributedMemoryCache();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -56,12 +57,12 @@ namespace GatesAdministratorTool
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
+            app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Login}/{action=Index}/{id?}");
             });
         }
     }

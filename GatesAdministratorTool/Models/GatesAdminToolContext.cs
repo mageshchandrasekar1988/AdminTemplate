@@ -19,14 +19,14 @@ namespace GatesAdministratorTool.Models
         public virtual DbSet<Location> Location { get; set; }
         public virtual DbSet<UserDetails> UserDetails { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+      /*  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer("server=SSCCHN1DT0902\\SQLEXPRESS;database=GatesAdminTool;Trusted_Connection=True");
             }
-        }
+        }*/
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

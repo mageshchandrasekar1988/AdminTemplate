@@ -72,7 +72,7 @@ using GatesAdministratorTool.Models;
             WriteLiteral("<div class=\"content-wrapper\">\r\n    <div class=\"row\">\r\n        <div class=\"col-lg-6\">\r\n            <div class=\"card\">\r\n                <div class=\"card-body\">\r\n                    <h4 class=\"card-title\">Add New Application</h4>\r\n                    ");
             EndContext();
             BeginContext(303, 3098, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3773263a1ffa4ed2b72a35812bcaff94", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2ca50b1e0aea4f8ba66ab3d8a0395ae8", async() => {
                 BeginContext(366, 1095, true);
                 WriteLiteral(@"
                         <fieldset>
@@ -94,7 +94,7 @@ using GatesAdministratorTool.Models;
                 WriteLiteral("    <select class=\"form-control\">\r\n                                    ");
                 EndContext();
                 BeginContext(1461, 41, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63dcc75ef6344af5b49a480718d2c7f9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d54c757a37184bfe8bd0815d4d38e56b", async() => {
                     BeginContext(1478, 15, true);
                     WriteLiteral("--Select Role--");
                     EndContext();
@@ -116,7 +116,7 @@ using GatesAdministratorTool.Models;
                 WriteLiteral("\r\n                                    ");
                 EndContext();
                 BeginContext(1540, 39, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61d115a2925d45c7bea0b3b4467c076f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3cfa9a1e80414bedbe2567d1a5601d2a", async() => {
                     BeginContext(1559, 11, true);
                     WriteLiteral("Super Admin");
                     EndContext();
@@ -138,7 +138,7 @@ using GatesAdministratorTool.Models;
                 WriteLiteral("\r\n                                    ");
                 EndContext();
                 BeginContext(1617, 32, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed6b10fc69c6463298e5122e20df66a9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5628285b879b40059880abdf227f11af", async() => {
                     BeginContext(1635, 5, true);
                     WriteLiteral("Admin");
                     EndContext();
@@ -160,7 +160,7 @@ using GatesAdministratorTool.Models;
                 WriteLiteral("\r\n                                    ");
                 EndContext();
                 BeginContext(1687, 31, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff8d4dbd6bf94f04ab6a4504f7b141c7", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7d77d1a512c54b009d42f230926c67f4", async() => {
                     BeginContext(1705, 4, true);
                     WriteLiteral("User");
                     EndContext();
@@ -188,7 +188,7 @@ using GatesAdministratorTool.Models;
                                     ");
                 EndContext();
                 BeginContext(2029, 43, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a86b4f2e06b645c5a66c190a4f4440a1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a78c67389c2144cb9a7708a17dab43fe", async() => {
                     BeginContext(2046, 17, true);
                     WriteLiteral("--Select Status--");
                     EndContext();
@@ -210,7 +210,7 @@ using GatesAdministratorTool.Models;
                 WriteLiteral("\r\n                                    ");
                 EndContext();
                 BeginContext(2110, 33, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "98d6872d09b44439ac56f5aa2b536b9b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "be1f387c03ef4686918e3e96e297b9fe", async() => {
                     BeginContext(2128, 6, true);
                     WriteLiteral("Active");
                     EndContext();
@@ -232,7 +232,7 @@ using GatesAdministratorTool.Models;
                 WriteLiteral("\r\n                                    ");
                 EndContext();
                 BeginContext(2181, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c965b50b9a264ccdb4409db00fbe6a07", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6a0e96d880f249639fb077e677a3d09f", async() => {
                     BeginContext(2199, 9, true);
                     WriteLiteral("In-Active");
                     EndContext();
@@ -295,7 +295,7 @@ using GatesAdministratorTool.Models;
             WriteLiteral("\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-lg-6\">\r\n            <div class=\"card\">\r\n                <div class=\"card-body\">\r\n                    <h4 class=\"card-title\">&nbsp;</h4>\r\n                    ");
             EndContext();
             BeginContext(3644, 2839, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c4a5e02e73434a578584e2ea5cdea23e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "31b393cf70814bb1b5478b49cf256792", async() => {
                 BeginContext(3707, 2168, true);
                 WriteLiteral(@"
                         <fieldset>
@@ -333,7 +333,7 @@ using GatesAdministratorTool.Models;
                 WriteLiteral("otification</label>\r\n                                <select class=\"form-control\">\r\n                                    ");
                 EndContext();
                 BeginContext(5875, 43, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "485c00ce15aa4e29a23330df7d452b79", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7b70e21dc47147679ad6e8e182d35835", async() => {
                     BeginContext(5892, 17, true);
                     WriteLiteral("--Select Status--");
                     EndContext();
@@ -355,7 +355,7 @@ using GatesAdministratorTool.Models;
                 WriteLiteral("\r\n                                    ");
                 EndContext();
                 BeginContext(5956, 30, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "861ff4c9249445c3925f5e155aa83ced", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d72679198c59412895aaf7ea808eff74", async() => {
                     BeginContext(5974, 3, true);
                     WriteLiteral("Yes");
                     EndContext();
@@ -377,7 +377,7 @@ using GatesAdministratorTool.Models;
                 WriteLiteral("\r\n                                    ");
                 EndContext();
                 BeginContext(6024, 29, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "82cd76dc329046fe992187e448343ffe", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d1739853e78247e9abbc8b985720d04f", async() => {
                     BeginContext(6042, 2, true);
                     WriteLiteral("No");
                     EndContext();

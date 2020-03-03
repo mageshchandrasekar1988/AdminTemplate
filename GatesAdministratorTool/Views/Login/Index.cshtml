@@ -1,4 +1,7 @@
-﻿@{
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model UserDetails
+@{
+
     Layout = null;
 }
 <!DOCTYPE html>
@@ -8,9 +11,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Majestic Admin Pro</title>
+    <title>Login</title>
     <!-- plugins:css -->
-    
+
     <link rel="stylesheet" href="~/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="~/vendors/css/vendor.bundle.base.css">
     <!-- endinject -->
@@ -34,27 +37,28 @@
                             </div>
                             <h4>Welcome back!</h4>
                             <h6 class="font-weight-light">Happy to see you again!</h6>
-                            <form class="pt-3">
+                            <h6 class="font-weight-light" style="color: red;text-align: center;margin-top: 17px;">@ViewBag.Messahe</h6>
+                            <form class="pt-3" method="post" asp-action="Login" asp-controller="Login">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail">Username</label>
+                                    <label asp-for="EmailId">Username</label>
                                     <div class="input-group">
                                         <div class="input-group-prepend bg-transparent">
                                             <span class="input-group-text bg-transparent border-right-0">
                                                 <i class="mdi mdi-account-outline text-primary"></i>
                                             </span>
                                         </div>
-                                        <input type="text" class="form-control form-control-lg border-left-0" id="exampleInputEmail" placeholder="Username">
+                                        <input type="text" class="form-control form-control-lg border-left-0" asp-for="EmailId" placeholder="Username">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputPassword">Password</label>
+                                    <label asp-for="Password">Password</label>
                                     <div class="input-group">
                                         <div class="input-group-prepend bg-transparent">
                                             <span class="input-group-text bg-transparent border-right-0">
                                                 <i class="mdi mdi-lock-outline text-primary"></i>
                                             </span>
                                         </div>
-                                        <input type="password" class="form-control form-control-lg border-left-0" id="exampleInputPassword" placeholder="Password">
+                                        <input type="password" class="form-control form-control-lg border-left-0" asp-for="Password" placeholder="Password">
                                     </div>
                                 </div>
                                 <div class="my-2 d-flex justify-content-between align-items-center">
@@ -66,7 +70,7 @@
                                     <a href="#" class="auth-link text-black">Forgot password?</a>
                                 </div>
                                 <div class="my-3">
-                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="../../index.html">LOGIN</a>
+                                    <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="Login" />
                                 </div>
                                 <div class="text-center mt-4 font-weight-light">
                                     Don't have an account? <a href="register-2.html" class="text-primary">Create</a>

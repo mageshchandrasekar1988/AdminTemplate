@@ -76,7 +76,7 @@ using GatesAdministratorTool.Models;
                     ");
             EndContext();
             BeginContext(366, 109, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b050451472e24c76a321140e8429d9d4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8bbc7a536cd34ffb96e8f4610d14d244", async() => {
                 BeginContext(456, 15, true);
                 WriteLiteral("Add Application");
                 EndContext();
@@ -151,7 +151,7 @@ using GatesAdministratorTool.Models;
                                             ");
             EndContext();
             BeginContext(2191, 101, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f248f85e68c841bf995ee40ea2c257d5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e0a894c60607456294cd613a8e3b5ab4", async() => {
                 BeginContext(2284, 4, true);
                 WriteLiteral("Edit");
                 EndContext();

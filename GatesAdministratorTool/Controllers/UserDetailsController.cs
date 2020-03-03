@@ -25,6 +25,7 @@ namespace GatesAdministratorTool.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult CreateNewUser(UserDetails userDetails)
         {

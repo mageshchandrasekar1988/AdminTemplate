@@ -73,7 +73,7 @@ using GatesAdministratorTool.Models;
                     ");
             EndContext();
             BeginContext(378, 99, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d4384c4621354806ba6e0e6ef278c774", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d6d7f238fc7a4c9db0cd56dbdeb9973d", async() => {
                 BeginContext(461, 12, true);
                 WriteLiteral("Add New User");
                 EndContext();
@@ -208,7 +208,7 @@ using GatesAdministratorTool.Models;
             WriteLiteral("</label>\r\n                                                </td>\r\n                                                <td>\r\n                                                    ");
             EndContext();
             BeginContext(2503, 93, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2990b3efef4142fa91ab8cb61f145e47", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ca462b2f8644d2991095fdfe9382d06", async() => {
                 BeginContext(2588, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
